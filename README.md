@@ -39,7 +39,7 @@ The server maintains an array of 10 integers. It handles two types of client ope
 ### Testing
 
 - **Read Client**: Makes 30 consecutive read requests and prints the results.
-- **Write Client**: Makes 30 write requests in a loop, incrementing the array values each time (e.g., first loop writes values 1~10, second loop writes values 11~20, etc.).
+- **Write Client**: Makes 30 write requests in a loop, incrementing the array values each time (e.g., first loop writes values 0 ~ 9, second loop writes values 10 ~ 19, etc.).
 
 ## Usage
 
